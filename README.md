@@ -1,6 +1,6 @@
 # Simple Optimization Metaheuristics
 
-This is a collection of simple optimization metaheuristics.
+This is a collection of simple optimization metaheuristics, implemented as a part of a trade study on automated scheduler algorithms for Gemini Observatory.
 
 The idea is that given:
 1. a schedule of observations `O` for a night; and
@@ -13,4 +13,4 @@ we can use optimization metaheuristics to try to optimize the schedule up to the
 observations.
 
 We provide several different techniques for doing so, along with a brute force algorithm (which tries all permutations
-of the observations and finds the one that scores the highest for comparison). # simple_metaheuristics
+of the observations and finds the one that scores the highest for comparison).
